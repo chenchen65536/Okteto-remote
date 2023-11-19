@@ -13,3 +13,5 @@ persistentVolume:
 securityContext:
   capabilities:
     add: ["SYS_PTRACE"]
+deploy:
+  remote: true
